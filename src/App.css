@@ -1,0 +1,24 @@
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topBox {
+  flex: 1 1 auto;
+}
+
+.headingBox {
+  text-align: center;
+  flex: 1 1 auto;
+  margin-bottom: 5rem;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.sidebarBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #110332;
+}
