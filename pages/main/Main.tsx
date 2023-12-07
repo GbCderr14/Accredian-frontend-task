@@ -52,6 +52,9 @@ const Main = () => {
           console.error('Error fetching user data:', error);
         }
       }
+      else{
+        navigate('/signin');
+      }
     };
 
     fetchUserData();
